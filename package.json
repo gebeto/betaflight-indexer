@@ -1,7 +1,7 @@
 {
   "name": "betaflight-indexer",
   "description": "CLI tool for indexing your own Betaflight presets source",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "bin": {
     "betaflight-indexer": "index.js",
