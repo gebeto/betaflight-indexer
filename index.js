@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require('./indexer/indexer');
+require("./indexer/indexer");
