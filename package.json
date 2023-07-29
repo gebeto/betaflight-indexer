@@ -5,7 +5,7 @@
   "license": "MIT",
   "bin": {
     "betaflight-indexer": "index.js",
-    "test": "echo",
+    "test": "echo"
   },
   "keywords": ["betaflight", "betaflight-presets"],
   "author": {
