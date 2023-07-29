@@ -2,6 +2,8 @@
 
 CLI tool for indexing own Betaflight Source
 
+You can check [my own Betaflight Source](https://github.com/gebeto/fpv) as example
+
 
 ## Install
 
