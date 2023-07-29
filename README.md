@@ -28,3 +28,7 @@ cd my-source-dir
 betaflight-indexer
 ```
 
+
+## Sources
+
+The sources for the `indexer` were taken from [betaflight/firmware-presets](https://github.com/betaflight/firmware-presets)
