@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "bin": {
-    "betaflight-indexer": "index.js",
-    "test": "echo"
+    "betaflight-indexer": "index.js"
   },
   "author": {
     "name": "Slavik Nychkalo",
@@ -19,5 +18,9 @@
   "keywords": [
     "betaflight",
     "betaflight-presets"
-  ]
+  ],
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "yargs": "^17.7.2"
+  }
 }
