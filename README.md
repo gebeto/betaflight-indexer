@@ -1,5 +1,7 @@
 # Betaflight Indexer
 
+![Betaflight](https://raw.githubusercontent.com/betaflight/betaflight/master/images/bf_logo.png)
+
 CLI tool for indexing own Betaflight Source
 
 You can check [my own Betaflight Source](https://github.com/gebeto/fpv) as example
