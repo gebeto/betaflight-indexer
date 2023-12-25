@@ -83,8 +83,15 @@ async function dumpQuad() {
     serial.close();
     const config = parseCommandsToObject(data);
     const name = config.meta.name;
+    if (!name) {
+      console.log(
+        "Quad was found, but there are some issues in diff. Please try again"
+      );
+      return;
+    }
+    const dumpPath = `presets/bnf/${name}.txt`;
     fs.writeFile(
-      `presets/bnf/${name}.txt`,
+      dumpPath,
       `#$ TITLE: ${name} defaults
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: BNF
@@ -93,8 +100,10 @@ async function dumpQuad() {
 #$ AUTHOR: gebeto
 
 
-${data}`
+${data.replace(/\r\n/g, "\n")}`,
+      { encoding: "utf-8" }
     );
+    console.log(`Successfully backed up: ${dumpPath}`);
   } else {
     console.log("No quad connected");
   }
